@@ -1,0 +1,79 @@
+body {
+    font-family: 'Spartan', sans-serif;
+}
+.bgimg {
+    background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+    background-size: 50%;
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+}
+.BigTitle {
+    width: 500px;
+    font-size: 3.5em;
+    margin: 100px 0px 10px 100px;    
+    color: hsl(300, 43%, 22%);
+}
+.Subtitle {
+    font-size: 1.2em;
+    margin-left: 100px;
+    width: 600px;
+    color: hsl(300, 43%, 22%);
+}   
+.Reviews {
+    height: 50px;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-size: small;
+    align-items: center;
+    justify-items: center;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    display: flex;
+}
+.Reviews div {
+    height: 20px;
+    width: 100px;
+    margin-left: 30px;
+    background-image: url(/images/icon-star.svg);
+    background-repeat: space;
+}
+.Reviews p {
+    margin-left: 30px;
+    border-color: blue;
+}
+.peopleCards {
+    border: solid;
+    border-color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+    background-color: hsl(300, 43%, 22%);
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 400px;
+}
+.peopleCardHeader {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+}
+.peopleCardHeader img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.CardName {
+    margin-top: 0px;
+    margin-left: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+.Carddesc {
+    margin-top: 0px;
+    margin-left: 20px;
+    color:hsl(303, 10%, 53%);
+    font-size: 12px;
+}
+.CardBody {
+    margin-left: 20px;
+    color: hsl(0, 0%, 100%);
+}
